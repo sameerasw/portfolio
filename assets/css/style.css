@@ -24,6 +24,10 @@ a:hover {
 	text-decoration: none;
 }
 
+:root {
+	color-scheme: dark;
+}
+
 h1,
 h2,
 h3,
@@ -1210,4 +1214,10 @@ section {
 
 #footer .credits {
 	font-size: 13px;
+}
+
+.github-chart {
+	margin-top: 2%;
+	opacity: 0.7;
+	filter: invert(1) hue-rotate(250deg);
 }
