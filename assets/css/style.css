@@ -396,9 +396,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+
 .about .content h3 {
 	font-weight: 700;
-	font-size: 26px;
+	font-size: 50px;
 	color: #00a098;
 }
 
@@ -408,7 +410,7 @@ section {
 }
 
 .about .content ul li {
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	display: flex;
 	align-items: center;
 }
@@ -483,11 +485,10 @@ section {
 .skills .progress .skill {
 	padding: 10px 0;
 	margin: 0;
-	text-transform: uppercase;
 	display: block;
-	font-weight: 600;
+	font-weight: 500;
 	font-family: 'Poppins', sans-serif;
-	color: #45505b;
+	color: #ffffff;
 }
 
 .skills .progress .skill .val {
@@ -496,7 +497,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-	background: #f2f3f5;
+	background: #2e2e2e;
 }
 
 .skills .progress-bar {
