@@ -397,7 +397,6 @@ section {
 # About
 --------------------------------------------------------------*/
 
-
 .about .content h3 {
 	font-weight: 700;
 	font-size: 50px;
@@ -537,7 +536,7 @@ section {
 
 .resume .resume-item h5 {
 	font-size: 16px;
-	background: #f7f8f9;
+	background: #424242;
 	padding: 5px 15px;
 	display: inline-block;
 	font-weight: 600;
@@ -1215,4 +1214,8 @@ section {
 	filter: invert(1) hue-rotate(230deg);
 	min-width: 50%;
 	max-width: 70%;
+}
+
+.github-chart:hover {
+	opacity: 1;
 }
