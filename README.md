@@ -5,6 +5,6 @@ https://sameerasw.netlify.app/
 
 <br>
 Preview<br>
-![image](https://user-images.githubusercontent.com/68902530/227556282-01aa34f6-1c4d-47c9-8935-f79fea202946.png)
+![image](https://user-images.githubusercontent.com/68902530/229583822-90c9c7b9-5edb-4f60-a38d-5a11cb302495.png)
 
 
