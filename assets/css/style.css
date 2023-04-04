@@ -1219,3 +1219,53 @@ section {
 .github-chart:hover {
 	opacity: 1;
 }
+
+.article {
+	margin-left: 20%;
+	margin-right: 20%;
+	line-height: 200%;
+}
+
+.portfolio-description {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 5%;
+	line-height: 200%;
+}
+
+.portfolio-description h1 {
+	color: #11dbcf;
+}
+
+.portfolio-info {
+	line-height: 300%;
+}
+
+.portfolio-info h3 {
+	color: #11dbcf;
+}
+
+.background {
+	background-image: url('../img/bg.png');
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 125%;
+}
+
+.article h2 {
+	color: #11dbcf;
+}
+
+.article strong {
+	color: #009e96;
+}
+
+.article p {
+	margin-top: 5%;
+}
+
+.features {
+	line-height: 250%;
+}
