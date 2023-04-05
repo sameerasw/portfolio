@@ -1245,8 +1245,17 @@ section {
 	color: #11dbcf;
 }
 
-.background {
+.backgroundmenu {
 	background-image: url('../img/bg.png');
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 125%;
+}
+
+.backgroundnum {
+	background-image: url('../img/portfolio/numpad-macro-bg.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	position: relative;
