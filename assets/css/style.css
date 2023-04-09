@@ -497,6 +497,7 @@ section {
 
 .skills .progress-bar-wrap {
 	background: #2e2e2e;
+	border-radius: 10px;
 }
 
 .skills .progress-bar {
@@ -504,6 +505,7 @@ section {
 	height: 10px;
 	transition: 0.9s;
 	background-color: #00a098;
+	border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -612,6 +614,7 @@ section {
 	overflow: hidden;
 	z-index: 1;
 	background: rgba(69, 80, 91, 0.8);
+	border-radius: 5%;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1213,7 +1216,7 @@ section {
 	opacity: 0.8;
 	filter: invert(1) hue-rotate(230deg);
 	min-width: 50%;
-	max-width: 70%;
+	max-width: 90%;
 }
 
 .github-chart:hover {
@@ -1277,4 +1280,22 @@ section {
 
 .features {
 	line-height: 250%;
+}
+
+.stats {
+	margin-top: 2.5%;
+	opacity: 0.8;
+	max-width: 100%;
+}
+
+.stats:hover {
+	opacity: 1.0;
+}
+
+.skill-icons {
+	max-width: 90%;
+}
+
+.github-repos {
+	margin : 2.5%;
 }
