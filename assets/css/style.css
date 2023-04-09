@@ -1299,3 +1299,7 @@ section {
 .github-repos {
 	margin : 2.5%;
 }
+
+.credits {
+	opacity: 0.5;
+}
