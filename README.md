@@ -4,7 +4,9 @@
 https://sameerasw.netlify.app/
 
 <br>
-Preview<br>
-![image](https://user-images.githubusercontent.com/68902530/229583822-90c9c7b9-5edb-4f60-a38d-5a11cb302495.png)
+<h2> Preview </h2>
+<br>
+
+![image](https://user-images.githubusercontent.com/68902530/230754483-25e080d7-1b0f-4220-a3cf-37b88d129658.png)
 
 
