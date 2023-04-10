@@ -1303,3 +1303,7 @@ section {
 .credits {
 	opacity: 0.5;
 }
+
+.setup {
+	max-width: 98%;
+}
