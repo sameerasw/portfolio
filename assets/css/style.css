@@ -6,6 +6,17 @@ body {
 	color: #ffffff;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
 a {
 	color: #0563bb;
 	text-decoration: none;
@@ -342,6 +353,27 @@ h6 {
 		font-size: 20px;
 		line-height: 24px;
 	}
+}
+
+.scroll {
+	position: absolute;
+	bottom: 2rem;
+	align-self: center;
+	display: block;
+	opacity: 0.2;
+	transition: all 0.4s;
+	z-index: 9999;
+}
+
+.scroll:hover {
+	opacity: 1;
+	bottom: 1.5rem;
+}
+
+.scroll a {
+	font-size: 1rem;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -1289,7 +1321,7 @@ section {
 }
 
 .stats:hover {
-	opacity: 1.0;
+	opacity: 1;
 }
 
 .skill-icons {
@@ -1297,7 +1329,7 @@ section {
 }
 
 .github-repos {
-	margin : 2.5%;
+	margin: 2.5%;
 }
 
 .credits {
