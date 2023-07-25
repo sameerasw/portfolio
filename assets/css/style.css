@@ -90,6 +90,7 @@ h6 {
 	z-index: 9999;
 	overflow: hidden;
 	background: #040404;
+	transition: rgba(0, 0, 0, 0.533)filter 2s ease-in-out;
 }
 
 #preloader:before {
@@ -103,16 +104,25 @@ h6 {
 	border-radius: 50%;
 	width: 60px;
 	height: 60px;
+	backdrop-filter: blur(0px);
 	animation: animate-preloader 1s ease-in-out infinite;
+	transition: backdrop-filter 2s ease-in-out;
 }
 
 @keyframes animate-preloader {
 	0% {
 		transform: rotate(0deg);
+		filter: blur(0px);
+	}
+
+	50% {
+		transform: rotate(180deg);
+		filter: blur(5px);
 	}
 
 	100% {
 		transform: rotate(360deg);
+		filter: blur(0px);
 	}
 }
 
