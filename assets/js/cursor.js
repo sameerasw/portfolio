@@ -38,3 +38,13 @@ let random = randomColor();
 const accentColor = document.querySelector(':root');
 accentColor.style.setProperty('--accent', `#${random}`);
 accentColor.style.setProperty('--accent-transparent', `#${random}33`);
+
+//call color change on key "R" press
+document.addEventListener('keydown', (e) => {
+  if (e.key === "r") {
+    random = randomColor();
+    accentColor.style.setProperty('--accent', `#${random}`);
+    accentColor.style.setProperty('--accent-transparent', `#${random}33`);
+  }
+}
+)

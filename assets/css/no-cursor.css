@@ -30,7 +30,7 @@ body{
   }
 
   .cursor-grow{
-    border: 5px solid #ffffff33;
+    border: 5px solid var(--accent);
     transition: border 0.5s ease-in-out;
   }
 
