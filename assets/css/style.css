@@ -283,6 +283,8 @@ h6 {
 	background: url('../img/hero-bg.jpg') top right no-repeat;
 	background-size: cover;
 	position: relative;
+	z-index: 0;
+	mix-blend-mode: lighten;
 }
 
 @media (min-width: 992px) {
@@ -323,6 +325,8 @@ h6 {
 
 #hero .social-links {
 	margin-top: 30px;
+	position: relative;
+	z-index: 1;
 }
 
 #hero .social-links a {
@@ -332,6 +336,13 @@ h6 {
 	line-height: 1;
 	margin-right: 20px;
 	transition: 0.3s;
+	position: relative;
+	z-index: 1;
+}
+
+#hero .social-links a i {
+	position: relative;
+	z-index: 1;
 }
 
 #hero .social-links a:hover {
@@ -362,7 +373,7 @@ h6 {
 	display: block;
 	opacity: 0.2;
 	transition: all 0.4s;
-	z-index: 9999;
+	z-index: 1;
 }
 
 .scroll:hover {

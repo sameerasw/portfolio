@@ -1,0 +1,33 @@
+body{
+    cursor:none
+  }
+  
+  .rounded{
+      /* https://codepen.io/developeraspire5/pen/gOGjeZG */
+      position: fixed;
+      top: -25px;
+      left: -25px;
+      width: 50px;
+      height: 50px;
+      border: 2px solid #ffffff22;
+      border-radius: 50% !important;
+      background-color: #ffffff22;
+      backdrop-filter: blur(5px);
+      z-index: -1;
+  }
+
+  .cursor-hover{
+    height: 100px;
+    width: 100px;
+    top: -50px;
+    left: -50px;
+    border: 2px solid var(--theme-primary);
+  }
+
+  a:hover{
+    cursor: pointer;
+  }
+
+  /* Paste 
+            <div class="cursor rounded move" id="cursor"></div>
+    in your html under body (preferably in container) */
