@@ -1,4 +1,6 @@
 const cursor = document.getElementById("cursor");
+//select all the links on the page
+const links = document.querySelectorAll("a");
 
 
 const moveCursor = (e)=> {
@@ -10,3 +12,15 @@ const moveCursor = (e)=> {
 }
 
 window.addEventListener('mousemove', moveCursor)
+
+links.forEach(link => {
+  link.addEventListener('mouseenter', () => {
+    cursor.classList.add('blur-mini');
+    cursor.classList.add('cursor-grow');
+  })
+  link.addEventListener('mouseleave', () => {
+    cursor.classList.remove('blur-mini');
+    cursor.classList.remove('cursor-grow');
+  })
+}
+)
