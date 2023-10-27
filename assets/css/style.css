@@ -629,6 +629,26 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Music
+--------------------------------------------------------------*/
+
+#music {
+	width: 25%;
+	margin: 0 auto;
+}
+
+#music div img {
+	width: 100%;
+	transition: 0.3s;
+	border-radius: 25px;
+}
+
+#music div img:hover {
+	scale: 0.9;
+}
+
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
@@ -862,12 +882,27 @@ section {
 	margin: 0 auto;
 }
 
+#setup div img {
+	width: 70%;
+	margin: 0 15%;
+	transition: 0.3s;
+	border-radius: 25px;
+}
+
+#setup .preview{
+	transition: 0.3s;
+}
+
+#setup .preview:hover {
+	scale: 0.9;
+}
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
 	width: 100%;
-	background: #000000;
 }
 
 .contact .info i {
